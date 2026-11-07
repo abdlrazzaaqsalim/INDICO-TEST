@@ -14,11 +14,11 @@ Automation test (Playwright + JavaScript, Page Object Model)
 ## REPORT Test (Saucedemo)
 <img src="assets-report/saucedemo/Screenshot 2026-11-07 162209.png" alt="Alt text" width="500">
 <img src="assets-report/saucedemo/Screenshot 2026-11-07 162214.png" alt="Alt text" width="500">
+<img src="assets-report/saucedemo/Screenshot 2026-11-07 163552.png" alt="Alt text" width="500">
 <img src="assets-report/saucedemo/Screenshot 2026-11-07 162228.png" alt="Alt text" width="500">
 <img src="assets-report/saucedemo/Screenshot 2026-11-07 162242.png" alt="Alt text" width="500">
 <img src="assets-report/saucedemo/Screenshot 2026-11-07 162252.png" alt="Alt text" width="500">
 <img src="assets-report/saucedemo/Screenshot 2026-11-07 162302.png" alt="Alt text" width="500">
-
 
 ## API Test (Petstore)
 `tests/api/pet.api.spec.js` — `POST https://petstore.swagger.io/v2/pet`
