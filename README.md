@@ -13,6 +13,7 @@ Automation test (Playwright + JavaScript, Page Object Model)
   
 ## REPORT Test (Saucedemo)
 <img src="assets-report/saucedemo/Screenshot 2026-11-07 162209.png" alt="Alt text" width="500">
+![Report Saucedemo](<assets-report/saucedemo/Screenshot 2026-11-07 162209.png>)
  ![Alt text](assets-report/saucedemo/Screenshot 2026-11-07 162209.png)
 
 ## API Test (Petstore)
