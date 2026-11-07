@@ -21,7 +21,7 @@ npm run report        # buka HTML report
    - Proceed Checkout (isi info: juan / test / 112)
    - Finish dan pastikan checkout selesai ("Thank you for your order!")
   
-## REPORT Test (Saucedemo)
+## Report Test (Saucedemo)
 <img src="assets-report/saucedemo/Screenshot 2026-11-07 162209.png" alt="Alt text" width="500">
 <img src="assets-report/saucedemo/Screenshot 2026-11-07 162214.png" alt="Alt text" width="500">
 <img src="assets-report/saucedemo/Screenshot 2026-11-07 163552.png" alt="Alt text" width="500">
@@ -45,7 +45,7 @@ npm run report        # buka HTML report
 - Cek status 200 dan `message` berisi id pet yang dihapus
 - Verifikasi `GET /pet/{id}` sesudahnya mengembalikan 404
 
-## REPORT Test (Petstore)
+## Report Test (Petstore)
 <img src="assets-report/petstore/Screenshot 2026-11-07 162628.png" alt="Alt text" width="500">
 <img src="assets-report/petstore/Screenshot 2026-11-07 162633.png" alt="Alt text" width="500">
 <img src="assets-report/petstore/Screenshot 2026-11-07 162640.png" alt="Alt text" width="500">
