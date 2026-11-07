@@ -41,7 +41,6 @@ Automation test (Playwright + JavaScript, Page Object Model)
 <img src="assets-report/petstore/Screenshot 2026-11-07 162640.png" alt="Alt text" width="500">
 <img src="assets-report/petstore/Screenshot 2026-11-07 162648.png" alt="Alt text" width="500">
 <img src="assets-report/petstore/Screenshot 2026-11-07 162655.png" alt="Alt text" width="500">
-<img src="assets-report/petstore/Screenshot 2026-11-07 163552.png" alt="Alt text" width="500">
 
 ## Menjalankan
 ```bash
