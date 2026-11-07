@@ -2,6 +2,16 @@
 
 Automation test (Playwright + JavaScript, Page Object Model)
 
+## Menjalankan
+```bash
+npm install
+npx playwright install chromium
+npm run test:api       # hanya API test
+npm run test:ui-e2e    # hanya UI test saucedemo
+npm run test:headed   # lihat browser
+npm run report        # buka HTML report
+```
+
 ## API Test (Saucedemo)
 1. **Login** — berhasil (`standard_user`) dan gagal (`locked_out_user`)
 2. **E2E Checkout Flow**
@@ -42,13 +52,5 @@ Automation test (Playwright + JavaScript, Page Object Model)
 <img src="assets-report/petstore/Screenshot 2026-11-07 162648.png" alt="Alt text" width="500">
 <img src="assets-report/petstore/Screenshot 2026-11-07 164628.png" alt="Alt text" width="500">
 
-## Menjalankan
-```bash
-npm install
-npx playwright install chromium
-npm run test:api       # hanya API test
-npm run test:ui-e2e    # hanya UI test saucedemo
-npm run test:headed   # lihat browser
-npm run report        # buka HTML report
-```
+
 
