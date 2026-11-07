@@ -12,7 +12,8 @@ Automation test (Playwright + JavaScript, Page Object Model)
    - Finish dan pastikan checkout selesai ("Thank you for your order!")
   
 ## REPORT Test (Saucedemo)
-![Alt text](assets-report/saucedemo/Screenshot 2026-11-07 162209.png)
+<img src="assets-report/saucedemo/Screenshot 2026-11-07 162209.png" alt="Alt text" width="500">
+ ![Alt text](assets-report/saucedemo/Screenshot 2026-11-07 162209.png)
 
 ## API Test (Petstore)
 `tests/api/pet.api.spec.js` — `POST https://petstore.swagger.io/v2/pet`
