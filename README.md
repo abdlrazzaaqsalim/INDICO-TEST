@@ -1,8 +1,8 @@
 # Saucedemo Playwright Automation
 
-Automation test (Playwright + JavaScript, Page Object Model) untuk https://www.saucedemo.com
+Automation test (Playwright + JavaScript, Page Object Model)
 
-## Skenario
+## API Test (Saucedemo)
 1. **Login** — berhasil (`standard_user`) dan gagal (`locked_out_user`)
 2. **E2E Checkout Flow**
    - Login
@@ -10,6 +10,15 @@ Automation test (Playwright + JavaScript, Page Object Model) untuk https://www.s
    - Go to Cart
    - Proceed Checkout (isi info: juan / test / 112)
    - Finish dan pastikan checkout selesai ("Thank you for your order!")
+  
+## REPORT Test (Saucedemo)
+<img src="assets-report/saucedemo/Screenshot 2026-11-07 162209.png" alt="Alt text" width="500">
+<img src="assets-report/saucedemo/Screenshot 2026-11-07 162214.png" alt="Alt text" width="500">
+<img src="assets-report/saucedemo/Screenshot 2026-11-07 163552.png" alt="Alt text" width="500">
+<img src="assets-report/saucedemo/Screenshot 2026-11-07 162228.png" alt="Alt text" width="500">
+<img src="assets-report/saucedemo/Screenshot 2026-11-07 162242.png" alt="Alt text" width="500">
+<img src="assets-report/saucedemo/Screenshot 2026-11-07 162252.png" alt="Alt text" width="500">
+<img src="assets-report/saucedemo/Screenshot 2026-11-07 162302.png" alt="Alt text" width="500">
 
 ## API Test (Petstore)
 `tests/api/pet.api.spec.js` — `POST https://petstore.swagger.io/v2/pet`
@@ -26,23 +35,16 @@ Automation test (Playwright + JavaScript, Page Object Model) untuk https://www.s
 - Cek status 200 dan `message` berisi id pet yang dihapus
 - Verifikasi `GET /pet/{id}` sesudahnya mengembalikan 404
 
-```bash
-npm run test:api       # hanya API test
-npm run test:ui-e2e    # hanya UI test saucedemo
-```
+## REPORT Test (Petstore)
+
 
 ## Menjalankan
 ```bash
 npm install
 npx playwright install chromium
-npm test              # headless
+npm run test:api       # hanya API test
+npm run test:ui-e2e    # hanya UI test saucedemo
 npm run test:headed   # lihat browser
 npm run report        # buka HTML report
 ```
 
-## Struktur
-```
-pages/    LoginPage, InventoryPage, CartPage, CheckoutPage
-tests/    saucedemo.spec.js
-playwright.config.js
-```
